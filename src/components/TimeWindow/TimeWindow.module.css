@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 30px;
+}
+
+.time-button {
+  margin: 30px 0 0;
+  font-size: 24px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.click-time-button {
+  margin: 30px 0 0;
+  font-size: 24px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(30, 144, 255);
+  transition: 0.3s;
+}
+
+.time-button:hover {
+  background-color: rgba(30, 144, 255, 0.5);
+}
+
+.time-button:active {
+  background-color: rgb(30, 144, 255);
+}

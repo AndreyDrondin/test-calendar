@@ -1,0 +1,57 @@
+.container {
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 25px;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.date-button {
+  font-size: 24px;
+  height: 60px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.click-date-button {
+  font-size: 24px;
+  height: 60px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: dodgerblue;
+  transition: 0.3s;
+}
+
+.date-button:hover {
+  background-color: rgba(30, 144, 255, 0.5);
+}
+
+.date-button:active {
+  background-color: dodgerblue;
+}
+
+.all-dates-button {
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.all-dates-button:hover {
+  color: rgba(30, 144, 255, 0.5);
+}
+
+.all-dates-button:active {
+  color: dodgerblue;
+}
+
+.datePicker {
+  width: 120px !important;
+}
